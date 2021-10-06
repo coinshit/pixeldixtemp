@@ -1,0 +1,55 @@
+{
+    "name": "Penissol",
+    "symbol": "",
+    "description": "blah blah blah",
+    "seller_fee_basis_points": 0,
+    "image": "https://www.arweave.net/abcd5678?ext=png",
+    "animation_url": "",
+    "external_url": "https://penissol.com",
+    "attributes": [
+      {
+        "trait_type": "id",
+        "value": 24,
+        "trait_count": 10000
+      },
+      {
+        "trait_type": "Blue penis",
+        "value": "yes",
+        "trait_count": 10
+     },
+     {
+        "trait_type": "Red rocket",
+        "value": "yes",
+        "trait_count": 10
+      },
+      {
+        "trait_type": "Batman",
+        "value": "yes",
+        "trait_count": 10
+      },
+      {
+        "trait_type": "Christmas Hat",
+        "value": "yes",
+        "trait_count": 10
+      }
+    ],
+    "collection": {
+       "name": "Penissol Gen0",
+       "family": "Penissol" 
+    },
+    "properties": {
+      "files": [
+        {
+          "uri": "https://www.arweave.net/abcd5678?ext=png",
+          "type": "image/png"
+        }
+      ],
+      "category": "video",
+      "creators": [
+        {
+          "address": "SOLFLR15asd9d21325bsadythp547912501b",
+          "share": 100
+        }
+      ]
+    }
+  }

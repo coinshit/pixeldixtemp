@@ -1,0 +1,450 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    padding: 0;
+}
+
+.first_container {
+    background-color: rgb(60,60,60);
+    padding: 20px;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.second_container {
+    background-color: rgb(230,230,230);
+    
+    padding: 5px;
+}
+
+.after_second_container {
+    background-color: rgb(220,220,220);
+    
+    padding: 5px;
+}
+
+.third_container {
+    background-color: rgb(230,230,230);
+    padding: 5px;
+}
+
+.after_third_container {
+    background-color: rgb(60,60,60);
+}
+
+.fourth_container {
+    background-color: rgb(60,60,60);
+    padding: 5px;
+    padding-bottom: 40px;
+}
+
+#img_header {
+    width: 100%;
+}
+
+#header_container {
+    width: 50%;
+
+}
+
+#slogan {
+    text-align: center; 
+    margin: auto; 
+    width: 70%;
+    margin-bottom: 5px;
+    font-size: 3vw;
+    color: rgb(220,220,220);
+    font-family: 'Oswald', sans-serif;
+}
+#slogan2 {
+    text-align: center; 
+    margin: auto; 
+    width: 35%;
+    margin-bottom: 5px;
+    font-size: 1.5vw;
+    color: rgb(220,220,220);
+    font-weight: 200;
+    font-family: 'Oswald', sans-serif;
+}
+
+.row-flex {
+   
+    width:40%;
+}
+
+#btn_container {
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    text-align: center;
+    font-size: 5vw;
+
+}
+
+.button1 {
+    width:100%;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    color: rgb(220,220,220);
+    background-color: rgb(230,0,126);
+    border-radius: 7px;
+    border: 0;
+    font-size: 2vw;
+    
+}
+
+.logo_container {
+    width: 10%;
+}
+
+.logo {
+    width: 40%;
+}
+
+.discordlogo {
+    float: left;
+}
+
+.twitterlogo {
+    float: right;
+}
+
+.sc_text {
+    line-height: 2.35em;
+    width: 70%;
+    margin: auto;
+    color: rgb(20,20,20);
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    font-size: 1.5vw;
+}
+
+.row {
+    width: 40%;
+    margin: auto;
+
+}
+.row-2 {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.row-3 {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#sc_img1 {
+    width: 30%;
+
+}
+
+#sc_img {
+    width: 100%;
+
+}
+
+#row-2_text {
+    font-size: 4vw;
+    color: rgb(20,20,20);
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+}
+
+#row-2_text_container {
+    float: right;
+    width: 49%;
+    padding-top: 50px;
+    line-height: 7em;
+}
+
+.faqs_container {
+    margin:auto;
+    width: 70%;
+    color: rgb(220,220,220);
+    text-align: center;
+}
+
+.faqs_title {
+    font-size: 4vw;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 2vw;
+}
+
+.faq_question {
+    font-size: 2vw;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.faq_answer {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 1.3vw;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(80,80,80);
+    padding: 5px;
+}
+
+.team {
+    margin:auto;
+    width: 70%;
+    color: rgb(20,20,20);
+    text-align: justify;
+}
+
+.topic {
+    text-align: center;
+    font-size: 4vw;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+}
+
+.membername {
+    font-size: 2vw;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+}
+
+.memberdescription {
+    font-size: 1.5vw;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.row4 {
+    background-color: rgb(60,60,60);
+}
+
+.roadmap {
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+.roadmap_box {
+    border: 3px solid rgb(60,60,60);
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 1.5vw;
+    font-family: 'Oswald', sans-serif;
+    line-height: 1.5em;
+}
+
+.roadmap_box_title {
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+
+.short_term {
+    background: rgb(200,200,200);
+}
+.long_term {
+    background: rgb(100,100,100);
+}
+.team_term {
+    background: rgb(250,50,50);
+}
+
+#img_astronaut {
+    width: 20%; 
+    margin-top: 3vw
+}
+
+.footer {
+    background: rgb(20,20,20);
+}
+.logo_container_footer {
+    background: rgb(20,20,20);
+    margin: auto;
+}
+
+.logo_container_footer {
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    float: left;
+    margin: auto;
+    padding: 2vw;
+}
+
+.logo_footer {
+    width: 5%;
+    
+}
+
+.discordlogo_footer {
+    
+}
+
+.twitterlogo_footer {
+    
+}
+
+.rights {
+    color: rgb(220,220,220);
+    float: right;
+}
+
+
+
+/* condition for screen size minimum of 500px */
+@media (max-width:500px) {
+    #header_container {
+        width: 100%;
+    }
+    .row-flex {
+   
+        width:100%;
+    }
+    #btn_container {
+        position: relative;
+        margin: auto;
+        margin-top: 15vw;
+        margin-bottom: 10px;
+        width: 80%;
+        text-align: center;
+        font-size: 5vw;
+    }
+    .button1 {
+        font-size: 5vw;
+    }
+    #slogan {
+        text-align: center; 
+        margin: auto; 
+        width: 100%;
+        margin-bottom: 5px;
+        font-size: 10vw;
+        color: rgb(220,220,220);
+        font-family: 'Oswald', sans-serif;
+    }
+    #slogan2 {
+        text-align: center; 
+        margin: auto; 
+        width: 90%;
+        margin-bottom: 5px;
+        font-size: 4vw;
+    }
+    .logo_container {
+        width: 40%;
+    }
+    
+    .logo {
+        width: 40%;
+    }
+    .row {
+        width: 90%;
+    }
+    .sc_text {
+        font-size: 18px;
+        width: 90%;
+        line-height: 1.7em;
+    }
+    .row-2 {
+        width: 95%;
+    }
+    .topic {
+        font-size: 30px;
+    }
+    .short_term_title {
+        font-size: 16px;
+    }
+
+    .roadmap {
+        margin-bottom: 10vw;
+    }
+    .roadmap_box {
+        border: 2px solid rgb(60,60,60);
+        width: 80%;
+        margin: auto;
+        border-radius: 2px;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        padding: 2vw;
+        font-size: 15px;
+        line-height: 1.5em;
+        text-align: left;
+    }
+    
+    .roadmap_box_title {
+        font-size: 16px;
+        margin-bottom: 1vw;
+        margin-top: 1vw;
+    }
+    .team {
+        margin:auto;
+        width: 80%;
+        color: rgb(20,20,20);
+        text-align: center;
+    }
+    .membername {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    .memberdescription {
+        font-size: 15px;
+        font-family: 'Oswald', sans-serif;
+        margin-top: 10px;
+        margin-bottom: 
+        20px;
+    }
+    .faqs_container {
+        width: 90%;
+    }
+    
+    .faqs_title {
+        font-size: 30px;
+    }
+    
+    .faq_question {
+        font-size: 22px;
+        cursor: pointer;
+        margin-top: 5vw;
+    }
+    
+    .faq_answer {
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+        font-size: 18px;
+        padding: 2vw;
+    }
+    #img_astronaut {
+        width: 70%;
+        margin-top: 5vw;
+    }
+
+    .footer {
+        font-size: 10px;
+    }
+}
